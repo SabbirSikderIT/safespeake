@@ -245,3 +245,9 @@ html[data-theme="light"] .cta-section [style*="color:white"] { color: #ffffff !i
 html.theme-anim, html.theme-anim *, html.theme-anim *::before, html.theme-anim *::after {
   transition: background-color .25s ease, border-color .25s ease, color .25s ease !important;
 }
+
+/* Brand logo next to the SafeSpeak wordmark */
+.logo:has(.brand-logo), .sidebar-logo:has(.brand-logo) { display: inline-flex; align-items: center; gap: 0.5rem; }
+.sidebar-logo:has(.brand-logo) { display: flex; }
+.brand-logo { width: 30px; height: 30px; flex-shrink: 0; filter: drop-shadow(0 2px 5px rgba(26,86,232,0.3)); }
+.sidebar-logo .brand-logo { width: 26px; height: 26px; }

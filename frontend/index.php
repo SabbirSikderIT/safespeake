@@ -39,7 +39,8 @@ nav {
   border-bottom: 1px solid rgba(255,255,255,0.08);
   display: flex; align-items: center; justify-content: space-between;
 }
-.nav-logo { font-family: 'Syne', sans-serif; font-size: 1.4rem; font-weight: 800; }
+.nav-logo { font-family: 'Syne', sans-serif; font-size: 1.4rem; font-weight: 800; display: flex; align-items: center; gap: 0.6rem; }
+.nav-logo-img { width: 34px; height: 34px; flex-shrink: 0; filter: drop-shadow(0 2px 6px rgba(26,86,232,0.35)); }
 .nav-logo span { color: var(--cyan); }
 .nav-links { display: flex; align-items: center; gap: 2rem; }
 .nav-links a { color: var(--gray-400); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
@@ -238,13 +239,14 @@ footer {
 .track-bar input::placeholder { color: var(--gray-600); }
 .track-bar input:focus { border-color: var(--blue-light); }
 </style>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
 <link rel="stylesheet" href="theme.css">
 <script src="theme.js"></script>
 </head>
 <body>
 
 <nav>
-  <div class="nav-logo">Safe<span>Speak</span></div>
+  <div class="nav-logo"><img class="nav-logo-img" src="assets/logo.svg" alt="" width="34" height="34">Safe<span>Speak</span></div>
   <div class="nav-links">
     <a href="#problem">Problem</a>
     <a href="#solution">Solution</a>

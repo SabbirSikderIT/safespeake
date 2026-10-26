@@ -66,6 +66,7 @@ input:focus{border-color:var(--teal);}
 .demo-box strong{color:#5eead4;}
 .admin-badge{display:inline-flex;align-items:center;gap:0.4rem;background:rgba(13,148,136,0.15);border:1px solid rgba(13,148,136,0.3);padding:0.3rem 0.75rem;border-radius:100px;font-size:0.75rem;color:#5eead4;margin-bottom:1rem;}
 </style>
+<link rel="icon" type="image/svg+xml" href="../assets/logo.svg">
 <link rel="stylesheet" href="../theme.css">
 <script src="../theme.js"></script>
 </head>
@@ -73,7 +74,7 @@ input:focus{border-color:var(--teal);}
 <div class="bg"></div>
 <div class="page">
   <header>
-    <a class="logo" href="../index.php">Safe<span>Speak</span></a>
+    <a class="logo" href="../index.php"><img class="brand-logo" src="../assets/logo.svg" alt="" width="30" height="30">Safe<span>Speak</span></a>
     <a class="back-link" href="../index.php">← Home</a>
   </header>
   <main>

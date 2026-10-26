@@ -82,6 +82,7 @@ select option{background:#1e293b;}
 .divider{height:1px;background:rgba(255,255,255,0.08);margin:1.25rem 0;}
 @media(max-width:480px){.form-row{grid-template-columns:1fr;}}
 </style>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
 <link rel="stylesheet" href="theme.css">
 <script src="theme.js"></script>
 </head>
@@ -89,7 +90,7 @@ select option{background:#1e293b;}
 <div class="bg"></div>
 <div class="page">
   <header>
-    <a class="logo" href="index.php">Safe<span>Speak</span></a>
+    <a class="logo" href="index.php"><img class="brand-logo" src="assets/logo.svg" alt="" width="30" height="30">Safe<span>Speak</span></a>
     <a class="back-link" href="index.php">← Back to Home</a>
   </header>
   <main>

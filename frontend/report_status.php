@@ -428,6 +428,7 @@ input:focus { border-color: var(--blue); }
 }
 .rating-options input { width: auto; }
 </style>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
 <link rel="stylesheet" href="theme.css">
 <script src="theme.js"></script>
 </head>
@@ -435,7 +436,7 @@ input:focus { border-color: var(--blue); }
 <div class="bg"></div>
 <div class="page">
   <header>
-    <a class="logo" href="index.php">Safe<span>Speak</span></a>
+    <a class="logo" href="index.php"><img class="brand-logo" src="assets/logo.svg" alt="" width="30" height="30">Safe<span>Speak</span></a>
     <a class="back-link" href="index.php">← Home</a>
   </header>
   <main>

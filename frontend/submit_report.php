@@ -339,13 +339,14 @@ textarea{resize:vertical;min-height:130px;}
   .form-row{grid-template-columns:1fr;}
 }
 </style>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
 <link rel="stylesheet" href="theme.css">
 <script src="theme.js"></script>
 </head>
 <body>
 <aside class="sidebar" id="sidebar">
   <div class="sidebar-header">
-    <div class="sidebar-logo">Safe<span>Speak</span></div>
+    <div class="sidebar-logo"><img class="brand-logo" src="assets/logo.svg" alt="" width="30" height="30">Safe<span>Speak</span></div>
     <div class="sidebar-user"><strong><?= htmlspecialchars($_SESSION['student_name'], ENT_QUOTES, 'UTF-8') ?></strong>ID: <?= htmlspecialchars($_SESSION['student_sid'], ENT_QUOTES, 'UTF-8') ?></div>
   </div>
   <nav class="sidebar-nav">

@@ -97,6 +97,7 @@ tr:last-child td{border-bottom:none;}
   .stats-grid{grid-template-columns:1fr 1fr;}
 }
 </style>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
 <link rel="stylesheet" href="theme.css">
 <script src="theme.js"></script>
 </head>
@@ -105,7 +106,7 @@ tr:last-child td{border-bottom:none;}
 <!-- SIDEBAR -->
 <aside class="sidebar" id="sidebar">
   <div class="sidebar-header">
-    <div class="sidebar-logo">Safe<span>Speak</span></div>
+    <div class="sidebar-logo"><img class="brand-logo" src="assets/logo.svg" alt="" width="30" height="30">Safe<span>Speak</span></div>
     <div class="sidebar-user">
       <strong><?= htmlspecialchars($_SESSION['student_name']) ?></strong>
       ID: <?= htmlspecialchars($_SESSION['student_sid']) ?>

@@ -557,6 +557,7 @@ body {
     }
 }
 </style>
+<link rel="icon" type="image/svg+xml" href="../assets/logo.svg">
 <link rel="stylesheet" href="../theme.css">
 <script src="../theme.js"></script>
 </head>
@@ -564,7 +565,7 @@ body {
 <div class="bg"></div>
 <div class="page">
     <header class="admin-header">
-        <a class="logo" href="../index.php">Safe<span>Speak</span></a>
+        <a class="logo" href="../index.php"><img class="brand-logo" src="../assets/logo.svg" alt="" width="30" height="30">Safe<span>Speak</span></a>
         <div class="admin-info">
             <div class="admin-badge">
                 <i class="fas fa-shield-alt"></i>

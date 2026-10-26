@@ -146,6 +146,7 @@ textarea { resize: vertical; min-height: 120px; }
 .msg.error { background: rgba(239,68,68,0.1); border: 1px solid rgba(239,68,68,0.3); color: #fca5a5; }
 .msg.success { background: rgba(16,185,129,0.1); border: 1px solid rgba(16,185,129,0.3); color: #6ee7b7; }
 </style>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
 <link rel="stylesheet" href="theme.css">
 <script src="theme.js"></script>
 </head>
@@ -153,7 +154,7 @@ textarea { resize: vertical; min-height: 120px; }
 <div class="bg"></div>
 <div class="page">
   <header>
-    <a class="logo" href="index.php">Safe<span>Speak</span></a>
+    <a class="logo" href="index.php"><img class="brand-logo" src="assets/logo.svg" alt="" width="30" height="30">Safe<span>Speak</span></a>
     <a class="back-link" href="index.php">← Home</a>
   </header>
   <main>

@@ -63,13 +63,14 @@ body{font-family:'DM Sans',sans-serif;background:#0d1330;color:var(--white);min-
 .hamburger span{width:22px;height:2px;background:var(--white);border-radius:2px;}
 @media(max-width:768px){.sidebar{transform:translateX(-100%);}.sidebar.open{transform:translateX(0);}.main{margin-left:0;}.hamburger{display:flex;}.content{padding:1rem;}}
 </style>
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
 <link rel="stylesheet" href="theme.css">
 <script src="theme.js"></script>
 </head>
 <body>
 <div class="sidebar">
   <div class="sidebar-header">
-    <div class="sidebar-logo">Safe<span>Speak</span></div>
+    <div class="sidebar-logo"><img class="brand-logo" src="assets/logo.svg" alt="" width="30" height="30">Safe<span>Speak</span></div>
     <div class="sidebar-user">Logged in as:<br><strong><?= htmlspecialchars($_SESSION['student_name']) ?></strong></div>
   </div>
   <nav class="sidebar-nav">
