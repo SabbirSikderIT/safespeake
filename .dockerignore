@@ -1,0 +1,5 @@
+.git
+.claude
+*.md
+backend/uploads/*
+!backend/uploads/.gitkeep

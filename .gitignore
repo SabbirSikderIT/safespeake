@@ -1,0 +1,6 @@
+.claude/
+.env
+*.pem
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/includes/config.local.php
