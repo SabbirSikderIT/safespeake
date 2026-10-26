@@ -425,8 +425,7 @@ footer {
 </div>
 
 <footer>
-  <p>SafeSpeak &copy; 2024 — Software Engineering Lab Project | Built with ❤️ for safer campuses</p>
-  <p style="margin-top:0.5rem;">Team: Md Ashmam Zaman Apon (Leader) · Sabbir Sikder · Tohidul Islam Bhuiyan</p>
+   <p>&copy; SafeSpeak | Built with ❤️ for safer campus.</p>
 </footer>
 
 <script>
